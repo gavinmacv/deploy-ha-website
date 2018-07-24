@@ -1,0 +1,25 @@
+Description
+Lab Overview
+An attractive feature of the cloud is that you can deploy applications in multiple data centers making them highly available and able to tolerate a high degree of failures. In this Lab, you will deploy a secure and highly available website with Terraform on AWS using a two-tier architecture with private and public subnets. The web servers and Elastic Load Balancer will span multiple availability zones to achieve high availability.
+
+Lab Objectives
+Upon completion of this Lab you will be able to:
+
+Apply infrastructure changes in Terraform
+Configure all the network and security infrastructure needed to deploy a highly available website
+Use user data to bootstrap web servers
+Destroy infrastructure managed by Terraform
+Lab Prerequisites
+You should be familiar with:
+
+Working at the command-line in Linux
+Amazon VPC, EC2, and Elastic Load Balancing basics
+Basic Terraform concepts such as resources, and state.  It is highly recommended to complete the Create AWS Resources with Terraform Lab and the Manage AWS Resources with Terraform Lab before attempting this Lab.
+Lab Environment
+Before completing the Lab instructions, the environment will look as follows:
+<blobid0-bb6ce2a2-0d0b-4a17-884f-ba713bdee55e.png>
+
+After completing the Lab instructions, the environment should look similar to:
+<blobid1-13dafed7-9a96-4fe8-b00b-01355b1d59e4.png>
+
+
